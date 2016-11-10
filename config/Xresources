@@ -1,0 +1,16 @@
+! Remove ui element
+urxvt.scrollBar: false
+! Adjust font
+urxvt.font: xft:DroidSansMono:pixelsize=14,xft:monapo:pixelsize=14
+urxvt.lineSpace: 3
+! urxvt.transparent: true
+! urxvt.shading: 20
+
+! True transparent background
+urxvt.foreground: #eeeeee
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+
+! Auto lock mechanism
+xautolock.locker: i3lock
+xautolock.time:5

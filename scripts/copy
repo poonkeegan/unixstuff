@@ -1,0 +1,15 @@
+#!/bin/bash
+
+FILES=$HOME/Documents/customization
+
+# Move all the config files to their respective directories
+cd $FILES/config
+cp i3/config $HOME/.config/i3/config
+cp i3status/config $HOME/.config/i3status/config
+cp ranger/rc.conf $HOME/.config/ranger/rc.conf
+cp vimrc $HOME/.vimrc
+cp Xresources $HOME/.Xresources
+
+# Move all scripts in to the correct directory
+cd $FILES/scripts
+cp * $HOME/.local/bin/
